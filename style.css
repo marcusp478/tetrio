@@ -1,61 +1,76 @@
 body {
-  font-family: "Franklin Gothic", "sans-serif";
-}
-
-.topMenu {
-  position: relative;
-  z-index: 100;
-  bottom: 120px;
-  right: 60px;
-}
-
-.topMenu h5{
+  font-family: "Roboto", "sans-serif";
   color: white;
 }
 
-.topMenu h3 {
-  color: lightgray;
+.header-background {
+  background: url('bg.png') center center fixed;
+  background-size: cover;
+  height: 130px;
 }
 
-.socials {
-  position: relative;
-  left: 125px;
-  bottom: 10px;
+.header-design {
+  position: absolute;
+  bottom: 0.25px;
 }
 
-.header-overlay {
-  position: relative;
-  bottom: 185px;
+.green-menu-background {
+  background-color: #162113;
+  height: 65px;
 }
 
 .green-menu {
-  background-color: #162113;
-  color: white;
-  height: 50px;
-  position: relative;
-  bottom: 195px;
-}
-
-.bottomMenu div{
   position: relative;
   bottom: 15px;
-  margin-left: 55px;
-}
-
-.bottomMenu h5{
   color: #a2d290;
 }
 
-.statistics {
+.green-menu-left {
   position: relative;
-  bottom: 550px;
-  color: white;
+  left: 35px;
+}
+
+.statistics-background {
+  background: url('bg.png') center center fixed;
+  background-size: cover;
+  height: 300px;
+  filter: brightness(100%);
   text-shadow: 2px 2px black;
 }
 
-.greenBottom {
+.green-box-1 {
   background-color: #162113;
-  height: 800px;
-  position: flex;
-  bottom: 425px;
+  margin: 40px;
+  height: 265px;
+  border: 1px #162113 ;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+  color: #a2d290;
+}
+
+.green-box-2 {
+  background-color: #162113;
+  margin: 40px;
+  border: 1px #162113 ;
+  position: relative;
+  right: 30px;
+  bottom: 10px;
+  color: #a2d290;
+}
+
+.footer-design {
+  position: relative;
+  bottom: 1px;
+}
+
+.footer-end {
+  background-color: #0a0f0a;
+  height: 25px;
+  position: relative;
+  top: 60px;
+}
+
+.colorblocktop {
+  padding-top: 20px;
 }

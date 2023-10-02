@@ -11,73 +11,97 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!--Header Image-->
-<div class="row">
-  <div class="col">
-    <img src="header.png" alt="Logo" class="img-fluid mx-auto d-block" style="height:110px">
+<div class="header-background">
+  <div class="container colorblocktop">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <img src="logo.png" alt="TETRIO" style="position:relative;right:80px">
+        <div class="navbar-nav" style="position:relative;right:80px">
+          <h5 class="nav-item p-4"><strong>PLAY</strong></h5>
+          <h5 class="nav-item p-4"><strong>TETRA CHANNEL</strong></h5>
+          <h5 class="nav-item p-4"><strong>ABOUT</strong></h5>
+        </div>
+        <div class="navbar-nav socials" style="position:relative;left:70px">
+          <h3 class="nav-item p-2"><i class="bi bi-download"></i></h3>
+          <h3 class="nav-item p-2"><i class="bi bi-twitter"></i></h3>
+          <h3 class="nav-item p-2"><i class="bi bi-discord"></i></h3>
+          <h3 class="nav-item p-2"><i class="bi bi-github"></i></h3>
+          <h3 class="nav-item p-2"><i class="bi bi-star-fill"></i></h3>
+        </div>
+      </div>
+    </nav>
   </div>
 </div>
+<nav class="navbar navbar-expand-lg navbar-light header-overlay p-0">
+  <div class="container-fluid header-design p-0"><img src="header-overlay.png" alt="header overlay">
+    <img src="header-overlay.png" alt="header overlay">
+    <img src="header-overlay.png" alt="header overlay">
+    <img src="header-overlay.png" alt="header overlay">
+  </div>
+</nav>
 
-<!--Navbar Text and Images-->
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container topMenu">
-    <img src="logo.png" alt="TETRIO">
-    <div class="navbar-nav">
-      <h5 class="nav-item p-5">PLAY</h5>
-      <h5 class="nav-item p-5">TETRA CHANNEL</h5>
-      <h5 class="nav-item p-5">ABOUT</h5>
-    </div>
-    <div class="navbar-nav socials">
-      <h3 class="nav-item p-2"><i class="bi bi-download"></i></h3>
-      <h3 class="nav-item p-2"><i class="bi bi-twitter"></i></h3>
-      <h3 class="nav-item p-2"><i class="bi bi-discord"></i></h3>
-      <h3 class="nav-item p-2"><i class="bi bi-github"></i></h3>
-      <h3 class="nav-item p-2"><i class="bi bi-star-fill"></i></h3>
-    </div>
-  </div>
-</nav>
-<nav class="navbar navbar-expand-lg navbar-light header-overlay">
-  <div class="container-fluid"><img src="header-overlay.png" alt="header overlay">
-    <img src="header-overlay.png" alt="header overlay">
-    <img src="header-overlay.png" alt="header overlay">
-    <img src="header-overlay.png" alt="header overlay">
-  </div>
-</nav>
-<div class="green-menu">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container bottomMenu">
-      <div class="navbar-nav">
-        <h5 class="nav-item p-4">HOME</h5>
-        <h5 class="nav-item p-4">PLAYERS</h5>
-        <h5 class="nav-item p-4">SCORES</h5>
+<div class="green-menu-background">
+  <nav class="navbar navbar-expand-lg navbar-light green-menu p-0">
+    <div class="container">
+      <div class="navbar-nav green-menu-left">
+        <h5 class="nav-item p-4"><strong>HOME</strong></h5>
+        <h5 class="nav-item p-4"><strong>PLAYERS</strong></h5>
+        <h5 class="nav-item p-4"><strong>SCORES</strong></h5>
       </div>
       <div>
         <label>
-          <input type="text" placeholder="enter a username to view their profile..." style="width:350px;background-color:#162113;">
+          <input class="" type="text" placeholder="enter a username to view their profile..." style="width:350px;background-color:#162113;">
         </label>
       </div>
     </div>
   </nav>
 </div>
 
-<!--Statistics/Middle of Page-->
-<div class="row">
-  <div class="col">
-    <img src="bg.png" alt="bg" style="position:relative;bottom:195px;" class="img-fluid mx-auto d-block">
+<div class="statistics-background">
+  <div class="row">
+    <div class="col pt-5">
+      <h1 class="text-center display-1">508,553,563</h1>
+      <h3 class="text-center">games played by 8,757,475 players</h3>
+      <h5 class="text-center">Track their progress and achievements on TETRA CHANNEL</h5>
+    </div>
   </div>
 </div>
-<div class="row" style="margin: 0">
-  <div class="col statistics">
-    <h1 class="text-center display-1">508,553,563</h1>
-    <h3 class="text-center">games played by 8,757,475 players➔</h3>
-    <h5 class="text-center">Track their progress and achievements on TETRA CHANNEL</h5>
-  </div>
-</div>
-
 </body>
-<footer>
-  <div class="greenBottom">
-
+<footer style="background-color:#0e160d">
+  <div class="row">
+    <div class="col green-box-1 rounded">
+      <h6 class="text-left pt-3" style="color:#5d8455"><strong>WELCOME TO TETRA CHANNEL</strong></h6>
+      <p class="text-left">TETRA CHANNEL is the standalone hub to TETR.IO, a modern yet familiar online stacker. View your stats, scores and leaderboards here! Enter a username above to view it, or check out some of the shortcuts below.</p>
+      <hr>
+      <p>➔TETRA LEAGUE global leaderboard</p>
+      <p>➔40L leaderboard</p>
+      <p>➔BLITZ leaderboard</p>
+    </div>
+    <div class="col green-box-2 rounded">
+      <h6 class="pt-3" style="color:#5d8455"><strong>6.3.4 PATCH NOTES</strong></h6>
+      <h6>➔ Majorly upgraded server infrastructure!</h6>
+      <h6>➔ Zero-Passthrough and No Lockout are now the default in all modes.</h6>
+      <h6 style="margin-left:25px;">➔ We're still testing things, so please keep providing feedback!</h6>
+      <h6>➔ Moderation roles have been split up:</h6>
+      <h6 style="margin-left:25px;">➔ SYSOP - used to be Administrator. Full access, reserved for osk only.</h6>
+      <h6 style="margin-left:25px;">➔ ADMINISTRATOR - extended access. Can do more bureaucratic tasks.</h6>
+      <h6 style="margin-left:25px;">➔ GLOBAL MODERATOR - unchanged.</h6>
+      <h6 style="margin-left:25px;">➔ COMMUNITY MODERATOR - can moderate chat and has limited access.</h6>
+      <h6>➔ Banned accounts are now automatically hidden from the XP leaderboard.</h6>
+      <h6>➔ Added preset: 4-Wide.</h6>
+      <h6>➔ Other minor improvements and bugfixes</h6>
+    </div>
+  </div>
+  <div>
+    <div class="footer-end"></div>
+    <nav class="navbar navbar-expand-lg navbar-light pt-2">
+      <div class="container-fluid footer-design">
+        <img src="footer.png" alt="header overlay">
+        <img src="footer.png" alt="header overlay">
+        <img src="footer.png" alt="header overlay">
+        <img src="footer.png" alt="header overlay">
+      </div>
+    </nav>
   </div>
 </footer>
 </html>
