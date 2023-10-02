@@ -1,0 +1,61 @@
+body {
+  font-family: "Franklin Gothic", "sans-serif";
+}
+
+.topMenu {
+  position: relative;
+  z-index: 100;
+  bottom: 120px;
+  right: 60px;
+}
+
+.topMenu h5{
+  color: white;
+}
+
+.topMenu h3 {
+  color: lightgray;
+}
+
+.socials {
+  position: relative;
+  left: 125px;
+  bottom: 10px;
+}
+
+.header-overlay {
+  position: relative;
+  bottom: 185px;
+}
+
+.green-menu {
+  background-color: #162113;
+  color: white;
+  height: 50px;
+  position: relative;
+  bottom: 195px;
+}
+
+.bottomMenu div{
+  position: relative;
+  bottom: 15px;
+  margin-left: 55px;
+}
+
+.bottomMenu h5{
+  color: #a2d290;
+}
+
+.statistics {
+  position: relative;
+  bottom: 550px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.greenBottom {
+  background-color: #162113;
+  height: 800px;
+  position: flex;
+  bottom: 425px;
+}
